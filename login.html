@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>login</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+</head>
+<body class="body-main">
+    <header class="header-section">
+        <header class="header-primary">
+          <div class="left-side">
+            <img
+              class="img-ashokstambh"
+              src="logos/ashokstambh.svg"
+              alt="Ashok stambh logo"
+            />
+            <p class="p-primary">
+              GOVERNMENT OF INDIA  |  MINISTRY OF JALSHAKTI    
+            </p>
+          </div>
+          <div class="right-side">
+            <img
+              class="font-image"
+              src="logos/A A A.svg"
+              alt="font size image"
+            />
+            <select name="language" class="select-language">
+              <option value="volvo">English</option>
+              <option value="saab">Hindi</option>
+            </select>
+            <div class="icons">
+              <a href="flex.html"><img src="logos/facebook.svg" alt="" /></a>
+              <a href="#"><img src="logos/Twitter.svg" alt="" /></a>
+              <a href="#"><img src="logos/Youtube.svg" alt="" /></a>
+              <a href="#"><img src="logos/Instagram.svg" alt="" /></a>
+              <a href="https://amritmahotsav.nic.in/"
+                ><img src="logos/azadika.svg" alt=""
+              /></a>
+              <a href="https://jaljeevanmission.gov.in/"
+                ><img src="logos/hargharjal.svg" alt=""
+              /></a>
+              <a href="https://swachhbharatmission.gov.in/"
+                ><img src="logos/swach-bharat.svg" alt=""
+              /></a>
+            </div>
+          </div>
+        </header>
+        <header class="header-secondary">
+          <img src="logos/mainlogo.svg" alt="main logo" />
+          <h1 class="heading-primary">भारत सरकार / जल शक्ति मंत्रालय <br>
+            GOVERNMENT OF INDIA MINISTRY OF JAL SHAKTI
+          </h1>
+          <ul class="list-items">
+            <li class="list-item  "><a href="index.html">home</a></li>
+            <li class="list-item"><a href="#">DEPARTMENTS</a></li>
+            <li class="list-item"><a href="#">KNOWLEDGE MANAGEMENT SYSTEM </a></li>
+            <li class="list-item"><a href="login.html">Login</a></li>
+            <li class="list-item"><a href="Signup.html">Register</a></li>
+          </ul>
+         
+        </header>
+      </header>
+    <div class="center">
+        <img src="logos/mainlogo.svg" alt="" style="    display: block;
+        margin-left: auto;
+        margin-right: auto;">
+        <h1> Jal Jeevan Mission</h1>
+        <form action="post">
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label for="#"><i class="fa-solid fa-user"></i>Username</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" required>
+                <span></span>
+                <label for="#"><i class="fa-solid fa-key"></i>Password</label>
+            </div>
+            <!-- <div class="txt_field">
+                <input type="txt_field" required>
+                <span></span>
+                <label for="#"><i class="fa-solid fa-rotate"></i>Captcha</label>
+            </div> -->
+            <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+            <div class="g-recaptcha" data-sitekey="6Ldbdg0TAAAAAI7KAf72Q6uagbWzWecTeBWmrCpJ"></div>
+            <div class="pass">Forgot Password</div>
+            <input type="submit" value="Login">
+            <div class="signup_link">
+                Not a user ? <a href="#">Signup</a>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+</html>
