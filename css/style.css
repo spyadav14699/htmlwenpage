@@ -29,6 +29,12 @@ body {
 /***********************/
 
 /* Header Primary */
+
+/* making responsive and adding meedia query*/
+
+
+
+
 .header-primary{
     display: flex;  
     justify-content: space-between;
@@ -70,9 +76,9 @@ body {
 
 .header-secondary{
     display: flex;
-    align-items: center;
+    justify-content: space-around;
     background: linear-gradient(180deg, #1B93B9 0%, #000000 99.96%, rgba(27, 147, 185, 0.675101) 99.97%, rgba(27, 147, 185, 0.47) 99.98%, rgba(27, 147, 185, 0.197917) 99.99%, rgba(27, 147, 185, 0) 100%);
-    padding-left: 3rem;
+    padding-left: 1%;
 }
 
 .heading-primary{
@@ -346,6 +352,25 @@ body {
 /***************/
    /*Slider*/
 
+.govermentscheema {
+font-weight: 600;
+font-size: 4rem;
+text-shadow: #12b4e672 0px 0px 2px;
+margin-left: 5%;
+}
+.sectionbox {
+width: 100%;
+background-image: url("../images/image 83 2.svg");
+height: 300px;
+display: flex;
+justify-content: space-around;
+
+}
+.sectionbox > a > img {
+height: 90%;
+margin-top: 5%;
+
+}
 
 
 
